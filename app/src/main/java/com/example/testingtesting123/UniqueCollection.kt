@@ -16,7 +16,7 @@ class UniqueCollection {
 
     /** Remove an item from the collection */
     fun remove (item: Item) {
-        !collection.remove(item)
+        collection.remove(item)
     }
 
 
@@ -24,7 +24,7 @@ class UniqueCollection {
 
     /** Clear all items from hte collection */
     fun clear () {
-
+        collection.clear()
     }
 
     /** Return the side of the collection */
